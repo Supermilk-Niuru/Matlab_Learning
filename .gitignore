@@ -1,0 +1,241 @@
+# ==============================
+# Operating System
+# ==============================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# ==============================
+# Editors / IDEs
+# ==============================
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+
+# ==============================
+# Python
+# ==============================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Conda environments
+.conda/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# Python logs
+*.log
+
+
+# ==============================
+# MATLAB
+# ==============================
+
+# MATLAB autosave
+*.asv
+
+# MATLAB backup
+*.m~
+
+# MATLAB code generation / build
+codegen/
+
+# MATLAB generated files
+*.mex*
+*.pdb
+
+# MATLAB figures / generated data
+# 如果你希望上传 .fig，请删除下面这一行
+*.fig
+
+
+# ==============================
+# R
+# ==============================
+
+# R history
+.Rhistory
+
+# R workspace
+.RData
+.RDataTmp
+
+# RStudio
+.Rproj.user/
+
+# RStudio project files
+*.Rproj
+
+
+# ==============================
+# Stata
+# ==============================
+
+# Stata temporary / backup files
+*.dta~
+*.smcl
+*.log
+
+# Stata autosave
+*.tmp
+
+
+# ==============================
+# SPSS
+# ==============================
+
+# SPSS temporary files
+*.spo
+*.spv~
+*.sav~
+*.zsav~
+*.por~
+
+
+# ==============================
+# Excel / CSV / Data Files
+# ==============================
+
+# Excel temporary / lock files
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+~$*.xlsb
+
+# Excel backup files
+*.xlk
+
+# Temporary CSV files
+*.csv.tmp
+
+# Temporary data files
+*.tmp
+*.temp
+
+
+# ==============================
+# Large / Raw Data
+# ==============================
+
+# Compressed datasets
+*.zip
+*.tar
+*.gz
+*.bz2
+*.xz
+*.7z
+
+# Common large data files
+*.h5
+*.hdf5
+*.mat
+*.parquet
+*.feather
+
+
+# ==============================
+# Logs / Temporary Files
+# ==============================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+
+# ==============================
+# Jupyter / Notebook outputs
+# ==============================
+
+# Uncomment if you don't want notebook outputs
+# *.ipynb
+
+
+# ==============================
+# Secrets / Configuration
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# API keys / credentials
+*.pem
+*.key
+
+
+# ==============================
+# Project-specific generated files
+# ==============================
+
+output/
+outputs/
+result/
+results/
+checkpoint/
+checkpoints/
+cache/
+temp/
+tmp/
+# Claude Code
+.claude/
+
+# Codex
+.codex/
+
+# AI temporary files
+.ai/
+.ai-cache/
+.agent/
+.agent-cache/
+
+*.generated
+*.generated.*
+*.prompt
+*.prompt.*
